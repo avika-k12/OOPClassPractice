@@ -10,7 +10,7 @@ public class TeacherClass {
     }
 
     public String introduce(){
-        return "This is " + this.name + "!\nThey teach " + this.subject + " and have been teaching for " + this.yearsOfExperience;
+        return "This is " + this.name + "!\nThey teach " + this.subject + " and have been teaching for " + this.yearsOfExperience + " years";
     }
 
     public String teachLesson(){
@@ -18,6 +18,6 @@ public class TeacherClass {
     }
 
     public String retire(){
-        return this.name + " has now retired after teaching for " + this.yearsOfExperience + " many years";
+        return this.name + " has now retired after teaching for " + this.yearsOfExperience + " years";
     }
 }
